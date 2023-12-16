@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    margin: 20px;
+    padding: 30px 5px;
+    
+}
+
+button {
+width: 80px;
+height: 40px;
+margin-left: 20px;
+border-radius: 10px;
+box-shadow: 2px solid black;
+font-weight: bold;
+color: darkblue;
+transition: all 0.05s ease-in;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+}
+
+#result {
+    color: darkmagenta;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#user-choice {
+    color: darkblue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#computer-choice {
+    color: darkgreen;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#container {
+    padding-top: 50px ;
+    text-align: center;
+}
